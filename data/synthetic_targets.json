@@ -1,0 +1,36 @@
+[
+  {
+    "name": "synthetic-customer-portal",
+    "url": "https://portal.example.test",
+    "tls": true,
+    "owner": "Web Platform Team",
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "X-Content-Type-Options": "nosniff",
+      "Referrer-Policy": "strict-origin-when-cross-origin"
+    }
+  },
+  {
+    "name": "synthetic-api-docs",
+    "url": "https://docs.example.test",
+    "tls": true,
+    "owner": "Developer Experience",
+    "headers": {
+      "Content-Security-Policy": "default-src 'self'; script-src 'self'",
+      "Strict-Transport-Security": "max-age=31536000",
+      "X-Content-Type-Options": "nosniff",
+      "Referrer-Policy": "no-referrer",
+      "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+    }
+  },
+  {
+    "name": "synthetic-legacy-app",
+    "url": "https://legacy.example.test",
+    "tls": true,
+    "owner": "",
+    "headers": {
+      "Content-Security-Policy": "default-src *; script-src 'self' 'unsafe-inline'",
+      "Referrer-Policy": "unsafe-url"
+    }
+  }
+]
